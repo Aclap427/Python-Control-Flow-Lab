@@ -14,12 +14,13 @@
 
 x = None
 while x != 'quit':
-  x = input('Please enter a letter from alphabet(a-z or A-Z').lower()
+  x = input('Please enter a letter from alphabet(a-z or A-Z)')
   if x in 'aeiouAEIOU':
-    print(f"The letter {x} is a vowel!")
+    print(f"The letter {x} is a vowel")
+  elif x == 'quit':
+    break
   else:
     print(f"The letter {x} is a consonant")
-
 
 # exercise-02 Length of Phrase
 
